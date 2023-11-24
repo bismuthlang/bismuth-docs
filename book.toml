@@ -1,0 +1,6 @@
+[book]
+authors = ["ahf"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Bismuth Documentation"
