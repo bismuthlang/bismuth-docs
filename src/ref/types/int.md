@@ -3,7 +3,7 @@ Ints represents a 32-bit signed data type.
 
 ## Operators
 
-### `int + int : int`
+### int + int : int {.code}
 
 Performs a "No Signed Wrap (NSW)" addition of two integers. 
 

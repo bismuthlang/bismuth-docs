@@ -9,7 +9,7 @@
 | Box 				| `0.0.1` | A pointer to data allocated on the heap | 
 | Unit 				| `0.0.1` | The type which only has one value 	  | 
 | T[N]				| `0.0.1` | An array of type T of fixed length N  | 
-| T[] 				| `1.3.4` | An array of type T dynamically sized  |
+| [T[]](./types/vector.md) 				| `1.3.4` | An array of type T dynamically sized  |
 | enum 				| `0.0.1` | (AKA. Sum Type, Tagged Union) A type of data which can store one of multiple specified data types | 
 | struct 			| `0.0.1` | (AKA. Product Type) A type of data which can store multiple pre-specified types of data simultaneously |  
 | func 				| `0.0.1` | A synchronous function 	          |

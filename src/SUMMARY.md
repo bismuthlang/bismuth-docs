@@ -20,7 +20,7 @@
 	- [str]()
 	- [Unit]()
 	- [Fixed-length Arrays]()
-	- [Dynamic-length Arrays]()
+	- [Dynamic-length Arrays](./ref/types/vector.md)
 	- [enum]()
 	- [struct]()
 	- [func]()
