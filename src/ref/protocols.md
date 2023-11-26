@@ -10,4 +10,7 @@ In Bismuth, processes interact through channels whose operations are described t
 | Of course			|  `!p`  |`0.0.1`| Repeat protocol `p` a number of times chosen by the other process.|
 | Internal Choice		|`InternalChoice<p_1, p_2, ...>` |`0.0.1`| The local process gets to determine which of the provided protocols (`p_1`, `p_2`, etc) to follow) |
 | External Choice		|`ExternalChoice<p_1, p_2, ...>`|`0.0.1`| The other process gets to determine which of the provided protocols (`p_1`, `p_2`, etc) to follow) |
+| Cancelable			| `Cancelable<p>` | `1.3.4` | Allows the protocol `p_1` to be canceled by either party privy to the protocol at any time. |
+
+
 
