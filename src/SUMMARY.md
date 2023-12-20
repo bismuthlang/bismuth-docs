@@ -17,7 +17,7 @@
 	- [Box]()
 	- [boolean](./ref/types/boolean.md)
 	- [int](./ref/types/int.md)
-	- [str]()
+	- [str](./ref/types/str.md)
 	- [Unit]()
 	- [Fixed-length Arrays]()
 	- [Dynamic-length Arrays](./ref/types/vector.md)

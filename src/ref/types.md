@@ -5,7 +5,7 @@
 |-------------------------------|---------|---------------------------------------|
 | [int](./types/int.md) 				| `0.0.1` | A 32-bit signed integer		  |
 | [boolean](./types/boolean.md) 			| `0.0.1` | A 1-bit boolean value 		  | 
-| str 				| `0.0.1` | A constant string literal 		  | 
+| [str](./types/str.md) 				| `0.0.1` | A constant string literal 		  | 
 | Box 				| `0.0.1` | A pointer to data allocated on the heap | 
 | Unit 				| `0.0.1` | The type which only has one value 	  | 
 | T[N]				| `0.0.1` | An array of type T of fixed length N  | 
