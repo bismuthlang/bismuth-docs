@@ -14,7 +14,7 @@
 
 # Reference Guide
 - [Types](./ref/types.md)
-	- [Box]()
+	- [Box](./ref/types/Box.md)
 	- [boolean](./ref/types/boolean.md)
 	- [int](./ref/types/int.md)
 	- [str](./ref/types/str.md)

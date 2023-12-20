@@ -6,7 +6,7 @@
 | [int](./types/int.md) 				| `0.0.1` | A 32-bit signed integer		  |
 | [boolean](./types/boolean.md) 			| `0.0.1` | A 1-bit boolean value 		  | 
 | [str](./types/str.md) 				| `0.0.1` | A constant string literal 		  | 
-| Box 				| `0.0.1` | A pointer to data allocated on the heap | 
+| [Box\<T\>](./types/Box.md) 				| `0.0.1` | A pointer to data allocated on the heap | 
 | [Unit](./types/Unit.md) 				| `0.0.1` | The type which only has one value 	  | 
 | [T[N]](./types/array.md)				| `0.0.1` | An array of type T of fixed length N  | 
 | [T[]](./types/vector.md) 				| `1.3.4` | An array of type T dynamically sized  |
