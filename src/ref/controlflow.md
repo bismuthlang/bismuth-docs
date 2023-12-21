@@ -9,7 +9,7 @@
 
 
 ## See Also 
-* [Channel Channel Specific Control Flow Operations](./types/Channel.html#channel-specific-control-flow-operations)
+* [Channel-Specific Control Flow Operations](./types/Channel.html#channel-specific-control-flow-operations)
 	* Accept 
 	* AcceptWhile
 	* AcceptIf
