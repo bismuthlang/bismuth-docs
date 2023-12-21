@@ -13,5 +13,5 @@
 | [enum](./types/enum.md) 				| `0.0.1` | (AKA. Sum Type, Tagged Union) A type of data which can store one of multiple specified data types | 
 | [struct](./types/struct.md) 			| `0.0.1` | (AKA. Product Type) A type of data which can store multiple pre-specified types of data simultaneously |  
 | [func](./types/func.md) 				| `0.0.1` | A synchronous function 	          |
-| Program			| `0.0.1` | A program which can be executed asynchronously | 
+| [Program](./types/Program.md)			| `0.0.1` | A program which can be executed asynchronously | 
 | [Channel](./types/Channel.md)			| `0.0.1` | A channel which allows for communicating to another program | 

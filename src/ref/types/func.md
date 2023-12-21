@@ -33,3 +33,9 @@ define func fib(int n) : int {
 }
 ```
 
+## Specifications 
+* Default Location: Text/Code segment of the executable file 
+* Default Modifiers: Non-linear 
+
+
+
