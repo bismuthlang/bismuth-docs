@@ -30,3 +30,4 @@
 	- [If/Else](./ref/flow/if.md)
 	- [While](./ref/flow/while.md)
 	- [Match](./ref/flow/match.md)
+- [Misc](./ref/Misc.md)
