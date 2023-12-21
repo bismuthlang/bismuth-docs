@@ -21,7 +21,7 @@
 	- [Unit](./ref/types/Unit.md)
 	- [Fixed-length Arrays](./ref/types/array.md)
 	- [Dynamic-length Arrays](./ref/types/vector.md)
-	- [enum]()
+	- [enum](./ref/types/enum.md)
 	- [struct]()
 	- [func]()
 	- [Program]()
