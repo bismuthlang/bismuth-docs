@@ -29,6 +29,20 @@ Programs themselves can be treated as higher order and stored as a variable wher
 Program<-int> prog := foo; 
 ```
 
+
+## Operations 
+
+### exec Program\<P\> : Channel\<dual P\> {.code}
+A program can be executed using the `exec` directive. This will return a channel that allows the process to communicate to the newly spawned program following the session type that is dual to P. 
+
+Example: 
+```bismuth 
+Program<-int> foo := ...; 
+
+Channel<+int> c := exec foo; 
+int i := c.recv(); 
+```
+
 ## Specifications 
 * Default Location: Text/Code segment of the executable file 
 * Default Modifiers: Non-linear 
