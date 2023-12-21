@@ -23,7 +23,7 @@
 	- [Dynamic-length Arrays](./ref/types/vector.md)
 	- [enum](./ref/types/enum.md)
 	- [struct](./ref/types/struct.md)
-	- [func]()
+	- [func](./ref/types/func.md)
 	- [Program]()
 	- [Channel](./ref/types/Channel.md)
 - [Protocols](./ref/protocols.md)
