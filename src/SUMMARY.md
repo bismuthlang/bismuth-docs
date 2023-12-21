@@ -22,7 +22,7 @@
 	- [Fixed-length Arrays](./ref/types/array.md)
 	- [Dynamic-length Arrays](./ref/types/vector.md)
 	- [enum](./ref/types/enum.md)
-	- [struct]()
+	- [struct](./ref/types/struct.md)
 	- [func]()
 	- [Program]()
 	- [Channel](./ref/types/Channel.md)
@@ -37,3 +37,4 @@
 	- [Accept]()
 	- [Internal Choice]()
 	- [External Choice]()
+	- [Match](./ref/flow/match.md)

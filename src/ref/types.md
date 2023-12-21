@@ -11,7 +11,7 @@
 | [T[N]](./types/array.md)				| `0.0.1` | An array of type T of fixed length N  | 
 | [T[]](./types/vector.md) 				| `1.3.4` | An array of type T dynamically sized  |
 | [enum](./types/enum.md) 				| `0.0.1` | (AKA. Sum Type, Tagged Union) A type of data which can store one of multiple specified data types | 
-| struct 			| `0.0.1` | (AKA. Product Type) A type of data which can store multiple pre-specified types of data simultaneously |  
+| [struct](./types/struct.md) 			| `0.0.1` | (AKA. Product Type) A type of data which can store multiple pre-specified types of data simultaneously |  
 | func 				| `0.0.1` | A synchronous function 	          |
 | Program			| `0.0.1` | A program which can be executed asynchronously | 
 | [Channel](./types/Channel.md)			| `0.0.1` | A channel which allows for communicating to another program | 

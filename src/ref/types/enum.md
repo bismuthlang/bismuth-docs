@@ -1,7 +1,7 @@
 # enum {.code}
 Enums (AKA. Sum Type, Tagged Union) respresent a type of data which stores a value of one of several possible types. For example, the sum type `(int + boolean)` would permit a resource with this type to store either an [`int`](./int.md) or [`boolean`](./boolean.md). 
 
-The value of an enum can then be used via pattern matching. 
+The value of an enum can then be used via [pattern matching](../flow/match.md). 
 
 
 ## Syntax 
