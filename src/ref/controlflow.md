@@ -1,23 +1,16 @@
-# Pattern Matching {.code}
-Pattern matching can be performed on a [sum type](../types/enum.md) in order to access the value that it stores. Pattern matching must be exhaustive: when pattern matching on a sum, there must be a branch defined for each possible case in the sum. 
+ # Control Flow Operations 
 
 
-## Syntax 
+| Name			| Version |	Description 			  |
+|-------------------------------|---------|---------------------------------------|
+| [If/Else](./flow/if.md) 				| `0.0.1` | Allows branching dependent on a boolean condition.	  |
+| [While](./flow/while.md) 			| `0.0.1` | Repeats a portion of code so long as a boolean condition evaluates to true.  		  | 
+| [Match](./flow/match.md) 				| `0.0.1` | Allows for pattern matching on a sum type	  | 
 
-Pattern matching follows the following syntax: 
 
-```bismuth
-match e : (T_1 + ... + T_n) 
-  | T_1 <name> => ...
-  | ...
-  | T_n <name> => ...
-
-```
-
-For example, given the sum type `(int + boolean)`, one could pattern match on it as follows:
-```bismuth 
-(int + boolean) x := ...; 
-match x 
-  | int i => ... // if x stores an integer, that value can be accessed as i.  
-  | boolean b => ...  // if x stores a boolean, that value can be accessed as b.  
-```
+## See Also 
+* [Channel Channel Specific Control Flow Operations](./types/Channel.html#channel-specific-control-flow-operations)
+	* Accept 
+	* AcceptWhile
+	* AcceptIf
+	* Offer
