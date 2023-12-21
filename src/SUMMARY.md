@@ -26,7 +26,6 @@
 	- [func](./ref/types/func.md)
 	- [Program](./ref/types/Program.md)
 	- [Channel](./ref/types/Channel.md)
-- [Session Types](./ref/protocols.md)
 - [Control Flow](./ref/controlflow.md)
 	- [If/Else](./ref/flow/if.md)
 	- [While](./ref/flow/while.md)

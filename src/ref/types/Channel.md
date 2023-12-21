@@ -1,5 +1,5 @@
 # Channel\<P\> {.code}
-Channels allow asynchronous type-safe communication between two processes. Channels are templated by a [Session Type](../protocols.md), P, to specify what operations are allowed on them at any given time. 
+Channels allow asynchronous type-safe communication between two processes. Channels are templated by a [Session Type](../types.html#session-types), P, to specify what operations are allowed on them at any given time. 
 
 ## Functions
 
