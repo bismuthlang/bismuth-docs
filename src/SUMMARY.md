@@ -28,6 +28,18 @@
 	- [Channel](./ref/types/Channel.md)
 - [Control Flow](./ref/controlflow.md)
 	- [If/Else](./ref/flow/if.md)
+	- [Select](./ref/flow/select.md)
 	- [While](./ref/flow/while.md)
+	- [For](./ref/flow/for.md)
 	- [Match](./ref/flow/match.md)
 - [Misc](./ref/Misc.md)
+
+# Changelog 
+- [Changelog](./changelog.md)
+	- [v1.3.4](./changelog/1.3.4.md)
+	- [v1.3.3](./changelog/1.3.3.md)
+	- [v1.3.2](./changelog/1.3.2.md)
+
+
+# Technical Specifications 
+- [Versioning](./specs/versioning.md)

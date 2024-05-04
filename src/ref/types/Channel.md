@@ -39,10 +39,23 @@ Channels allow asynchronous type-safe communication between two processes. Chann
 * Action: Selects protocol `P_i` from the internal choice to follow. 
 * Result: `self : P_i`
 
+### self[lbl_i] : Unit {.code}
+* Given: `self : InternalChoice<lbl_1 : P_1, ..., lbl_n : P_n>`
+* Action: Selects protocol `P_i` identified by unique label `lbl_i` from the internal choice to follow. 
+* Result: `self : P_i`
+
+
+### self.cancel() : Unit {.code}
+* Since: `1.3.4`
+* Given: `self : Cancelable<...Cancelable<P_1>;P_2>;P_3`
+* Action: Cancels (skips over) the innermost session type
+* Result: `self : Cancelable<P_2>;P_3`
+
+
 
 ## Channel-Specific Control Flow Operations
 
-### acccept(self) {...} {.code} 
+### accept(self) {...} {.code} 
 * Given: `self : !P_1;P_2`
 * Action: Allows us to repeat the loop body as many times as are requested by the remote process to fulfill `!P_1`. Outside of the loop, the channel thus continues as `c : P_2`.
 * See [here](https://bismuth-lang.org/ahf-CommunicatingProcessCalculus.pdf#subsubsection.7.3.1) for details.
@@ -72,6 +85,20 @@ offer c
   	c.send(!b);
     }
 ```
+
+### offer self (| lbl_i => ...)* {.code}
+* Given: `self : ExternalChoice<lbl_1 : P_1, ..., lbl_n : P_n>`
+* Action: Allows us to perform a case analysis on each offered session type to allow for us to branch to a program which follows the selected session type. 
+
+Example:
+```bismuth 
+// Given c : ExternalChoice<sendInt: -int, recvBool: +boolean;>
+
+offer c 
+  | sendInt => c.send(5);
+  | recvBool => boolean b := c.recv(); 
+```
+
 
 ## Specifications 
 * Size: TODO

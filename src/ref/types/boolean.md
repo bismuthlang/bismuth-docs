@@ -37,7 +37,7 @@ boolean c := false != true;  // true
 boolean d := false != false; // false
 ```
 
-### self & boolean : boolean {.code}
+### self && boolean : boolean {.code}
 
 Ands two boolean expressions with short-circuiting. 
 
@@ -48,7 +48,7 @@ boolean b := false & false; // false
 boolean c := false & true;  // false 
 ```
 
-### self | boolean : boolean {.code}
+### self || boolean : boolean {.code}
 
 Ors two boolean expressions with short-circuiting. 
 
