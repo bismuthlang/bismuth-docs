@@ -4,6 +4,7 @@
 
 | Version | Links | Date |
 |---------|-------|------|
+| `1.3.5` | [changelog](./changelog/1.3.5.md) \| [github](https://github.com/bismuthlang/bismuth/releases/tag/v1.3.5) | 2024-12-22 |  
 | `1.3.4` | [changelog](./changelog/1.3.4.md) \| [github](https://github.com/ahfriedman/bismuth/releases/tag/v1.3.4) \| [gitea](https://gitea.ahfriedman.com/ahf/prism/releases/tag/v1.3.4) | 2024-05-03 |
 | `1.3.3` | [changelog](./changelog/1.3.3.md) \| [github](https://github.com/ahfriedman/bismuth/releases/tag/av1.3.3)\| [gitea](https://gitea.ahfriedman.com/ahf/prism/releases/tag/v1.3.3) | 2023-06-04 |
 | `1.3.2` | [changelog](./changelog/1.3.2.md) \| [github](https://github.com/ahfriedman/bismuth/releases/tag/v1.3.2) \| [gitea](https://gitea.ahfriedman.com/ahf/prism/releases/tag/v1.3.2) | 2023-06-04 |
