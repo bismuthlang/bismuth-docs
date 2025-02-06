@@ -3,13 +3,12 @@
 [Introduction](./Introduction.md)
 
 # Getting Started
-- [Installing Bismuth]()
-- [Online Bismuth Editor]()
+- [Installing & Contributing](./install.md)
 - [Hello world]()
 
 # Understanding Bismuth
 - [Introduction to Process Calculi]()
-- [Channels]() 
+- [Channels]()
 - [Linear Types]()
 
 # Reference Guide
@@ -34,7 +33,7 @@
 	- [Match](./ref/flow/match.md)
 - [Misc](./ref/Misc.md)
 
-# Changelog 
+# Changelog
 - [Changelog](./changelog.md)
     - [V1.3.6](./changelog/1.3.6.md)
     - [V1.3.5](./changelog/1.3.5.md)
@@ -43,5 +42,5 @@
 	- [v1.3.2](./changelog/1.3.2.md)
 
 
-# Technical Specifications 
+# Technical Specifications
 - [Versioning](./specs/versioning.md)

@@ -5,8 +5,11 @@ multilingual = false
 src = "src"
 title = "Bismuth Documentation"
 
+
 [output.html]
 additional-css = ["custom.css"]
+git-repository-url="https://github.com/bismuthlang"
+edit-url-template="https://github.com/bismuthlang/bismuth-docs/edit/main/{path}"
 
 [output.html.fold]
 enable = true
