@@ -3,33 +3,33 @@ Channels allow asynchronous type-safe communication between two processes. Chann
 
 ## Functions
 
-### self.send(e : T) : Unit {.code}
+### self.send(e : T) -> Unit {.code}
 * Given: `self : -T;P`
 * Action: Sends the result of evaluating expression `e : T` to the remote process. If `e` is linear, the sent value will be copied. If it is non-linear, then the value will be moved to the remote process.
 * Result: `self : P`
 
-### self.recv() :  T {.code}
+### self.recv() ->  T {.code}
 * Given: `self : +T;P`
 * Action: Receives a value of type `T` from the remote processs.
 * Result: `self : P`
 
-### unfold(self) : Unit {.code}
+### unfold(self) -> Unit {.code}
 * Given: `self : ?P_1;P_2`
 * Action: Unfolds an interation of `P_1` from `?P_1`. 
 * Result: `self : P_1;?P_1;P_2`
 
-### unfold(self) : Unit {.code}
+### unfold(self) -> Unit {.code}
 * Given: `self : *?P_1;P_2`
 * Action: Unfolds an interation of `P_1` from `*?P_1` (`P_1` is guarded). 
 * Result: `self : P_1;*?P_1;P_2`
 
-### more(self) : Unit {.code}
+### more(self) -> Unit {.code}
 *Deprecated; See unfold.*
 
-### more(self) : Unit {.code}
+### more(self) -> Unit {.code}
 *Deprecated; See unfold.*
 
-### weaken(self) : Unit {.code}
+### weaken(self) -> Unit {.code}
 * Given: `self : ?P_1T;P_2`
 * Action: Finishes loop `?P_1`. 
 * Result: `self : P_2`
@@ -45,7 +45,7 @@ Channels allow asynchronous type-safe communication between two processes. Chann
 * Result: `self : P_i`
 
 
-### self.cancel() : Unit {.code}
+### self.cancel() -> Unit {.code}
 * Since: `1.3.4`
 * Given: `self : Cancelable<...Cancelable<P_1>;P_2>;P_3`
 * Action: Cancels (skips over) the innermost session type

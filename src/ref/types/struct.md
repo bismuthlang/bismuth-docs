@@ -6,7 +6,7 @@ Structs (AKA. Product types) respresent a type of data which stores a value that
 
 Structs are defined using the following syntax where `T_i` represents the type of the data stored by the field labeled by `N_i`: 
 ```bismuth 
-define enum <NAME> {
+enum <NAME> {
     T_1 N_1;  
     ..., 
     T_n N_n; 
@@ -15,7 +15,7 @@ define enum <NAME> {
 
 For example, a linked list of integers could be defined as follows: 
 ```bismuth 
-define enum ListNode {
+enum ListNode {
     int value; 
     (Unit + Box<ListNode>) next; 
 }

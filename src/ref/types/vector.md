@@ -7,7 +7,6 @@ Ints represents a 32-bit signed data type.
 
 
 ### self.length : [u32](./u32.md) {.code}
-FIXME: WRONG TYPE
 
 ### self.capacity : [u32](./u32.md) {.code}
 FIXME: UNIMPLEMENTED
@@ -20,7 +19,7 @@ Looks up a value in the vector. If it is within bonds, the value of type T store
 ### self[u32] := T : [boolean](./boolean.md) {.code}
 Attempts to assign T to the value at the specified index. If the index is out of bounds, the operation fails and false is returned. Otherwise, true is returned. 
 
-FIXME: NOT IMPLEMENTED; INSTEAD WE CURRENTLY PROPOGATE THE VALUE!
+FIXME: NOT IMPLEMENTED; INSTEAD WE CURRENTLY PROPAGATE THE VALUE!
 
 ### int + int : int {.code}
 

@@ -4,7 +4,7 @@ Boxes represent a pointer to data of a specified type, `T`, that is being stored
 
 ## Functions
 
-### Box\<T\>::init(e : T) : Box\<T\> {.code} 
+### Box\<T\>::init(e : T) -> Box\<T\> {.code} 
 
 Creates a new value of type `Box<T>` by storing the result of evaluating the expression `e : T`. 
 

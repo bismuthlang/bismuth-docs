@@ -8,7 +8,7 @@ Currently programs also serve as the main entrypoint to a bismuth program. Speci
 
 Programs are currently defined using the following syntax: 
 ```bismuth 
-define <NAME> :: <CHANNEL ID> : Channel<<SESSION TYPE>> {
+prog <NAME> :: <CHANNEL ID> : <SESSION TYPE> {
    // Code 
 }
 ```
@@ -17,7 +17,8 @@ In this syntax, `<NAME>` represents the name of the program, `<CHANNEL ID>` is t
 For example consider the following program: 
 
 ```bismuth
-define foo :: c : Channel<-int> {
+prog foo :: c : -int {
+  # c : Channel<-int>
   c.send(0); 
 }
 ```

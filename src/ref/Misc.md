@@ -22,9 +22,9 @@ var b := false; // b will be inferred as having type bool
 var c := exec Program<P>; // c will be inferred as having type Channel<dual P> 
 ```
 
-## asChannel(e : T[]) : Channel<!+T> {.code .mb-0}
-## asChannel(e : T[N}) : Channel<!+T> {.code .m-0}
-## asChannel(e : T) : Channel<!+T> {.code .m-0}
+## asChannel(e : T[]) -> Channel<!+T> {.code .mb-0}
+## asChannel(e : T[N}) -> Channel<!+T> {.code .m-0}
+## asChannel(e : T) -> Channel<!+T> {.code .m-0}
 * Since: `1.3.4` 
 Given an expression `e`, `asChannel` will evaluate it and return the reuslts as a channel that can be iterated through. 
 
@@ -42,7 +42,7 @@ accept(c2){
 printf("\n");
 ```
 
-## copy(e : T) : T {.code} 
+## copy(e : T) -> T {.code} 
 Given any non-linear expression `e`, `copy` will return a deep copy of the expression. Note: parenthesis around the expression to be copied are optional. 
 
 Example: 
@@ -55,7 +55,7 @@ var ptr := Box<int>::init(a);
 var c := copy ptr; // c will be a deep copy of ptr
 ```
 
-## extern \<Identifier\> (T_1, ... T_n) : T_r {.code}
+## extern \<Identifier\> (T_1, ... T_n) -> T_r {.code}
 
 Allows one to import a function from another file/the C standard library whose name is `<Identifier>`, has the return type `T_r`, and has the arguments `T_1, ..., T_n`. This function is likely to be deprecated in favor of an easier system for importing resources—including other types (e.g., programs, structs, enums, etc).  
 

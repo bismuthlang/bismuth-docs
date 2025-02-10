@@ -35,6 +35,7 @@
 
 # Changelog
 - [Changelog](./changelog.md)
+    - [V1.3.6](./changelog/1.3.7.md)
     - [V1.3.6](./changelog/1.3.6.md)
     - [V1.3.5](./changelog/1.3.5.md)
 	- [v1.3.4](./changelog/1.3.4.md)

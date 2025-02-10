@@ -10,7 +10,7 @@ Enums can either be anonymous (defined in-place) or named. Anonymous enums are d
 
 Named enums are defined using the following syntax: 
 ```bismuth 
-define enum <NAME> {
+enum <NAME> {
     T_1, 
     ..., 
     T_n
@@ -20,9 +20,9 @@ define enum <NAME> {
 Unlike anonymous enums which are equivalent based on the types they can contain, named enums are seen as equal based on instance of the defined type. For example: 
 
 ```bismuth
-define enum Foo { int, boolean }
+enum Foo { int, boolean }
 
-define enum Bar { int, boolean } 
+enum Bar { int, boolean } 
 
 Foo f := 5; 
 Bar b := 5; 
